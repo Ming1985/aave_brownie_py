@@ -1,4 +1,3 @@
-from configparser import ConverterMapping
 from brownie import config, network, interface
 from scripts.get_weth import get_weth
 from scripts.helpful_scripts import get_account
