@@ -1,4 +1,4 @@
-# Goals
+## Goals
 1. swap some eth to weth
 2. deposit some eth/weth into aave
 3. borrow some asset withe the eth collateral
@@ -19,13 +19,13 @@ https://kovan.etherscan.io/token/0xd0a1e359811322d97991e03f863a0c30c2cf029c
 - aave code https://github.com/aave/protocol-v2 interface included
 
 ## Skills
-# How to interact with interface
+### How to interact with interface
 1. create interface files into interfaces directory. Interface files can be found on github project source codes, or can be translated from abis, get from etherscan.
 2. from brownie import interface
 3. create contract objects using contract = interface.InterfaceName(address)
 4. interact with contract object. Contract.function(input)
 
-# How to borrow on aave
+### How to borrow on aave
 1. What you need
    1. Lending pool provider address and interface 
    2. deposit erc20 token address
@@ -38,9 +38,9 @@ https://kovan.etherscan.io/token/0xd0a1e359811322d97991e03f863a0c30c2cf029c
    3. borrow using lending_pool.borrow()
    4. repay using leding_pool.repay()
 
-# Brownie console --network kovan 
+### Brownie console --network kovan 
 
-# Brownie test
+### Brownie test
 
-# Error
+### Error
 - gas fee error, usually is caused by wrong contract address, rather than gas.
